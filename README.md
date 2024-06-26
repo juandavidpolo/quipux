@@ -1,5 +1,8 @@
 # quipux test
 
+# create virtual enviorement
+python -m venv evn
+
 # install requirements
 pip install -r requirements.txt
 
