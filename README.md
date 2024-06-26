@@ -1,13 +1,10 @@
-# quipux test
+# quipux assestment
 
-# create virtual enviorement
+# create virtual enviorement (not necesary with docker)
 python -m venv evn
 
-# install requirements
+# install requirements (not necesary with docker)
 pip install -r requirements.txt
 
-# start virtual enviorement
-.\env\Scripts\activate
-
-# start API
+# start API (not necesary with docker)
 fastapi dev run.py
